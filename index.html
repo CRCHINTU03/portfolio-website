@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Name - Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="sticky top-0 bg-white shadow">
+        <div class="container mx-auto px-4">
+          <div class="flex justify-between items-center py-4">
+            <a href="#" class="text-xl font-bold">Your Name</a>
+            <ul class="flex space-x-4">
+              <li><a href="#home" class="text-blue-500 hover:text-blue-700 hover:underline">Home</a></li>
+              <li><a href="#about" class="text-blue-500 hover:text-blue-700 hover:underline">About</a></li>
+              <li><a href="#skills" class="text-blue-500 hover:text-blue-700 hover:underline">Skills</a></li>
+              <li><a href="#projects" class="text-blue-500 hover:text-blue-700 hover:underline">Projects</a></li>
+              <li><a href="#contact" class="text-blue-500 hover:text-blue-700 hover:underline">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="home" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4 text-center">
+          <h1 class="text-4xl font-bold mb-4">Your Name</h1>
+          <h2 class="text-2xl mb-4">Data Analyst | Data Scientist | AI Engineer</h2>
+          <p class="mb-8">I’m a data professional skilled in analytics, science, and AI, using tools like SQL, Python, and Tableau to drive insights.</p>
+          <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Download Resume (Coming Soon)</a>
+        </div>
+      </section>
+
+      <section id="about" class="py-20">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-4 text-center">About Me</h2>
+          <div class="flex flex-wrap items-center">
+            <div class="w-full md:w-1/2 mb-4 md:mb-0">
+              <div class="w-48 h-48 bg-gray-300 rounded-full mx-auto"></div>
+            </div>
+            <div class="w-full md:w-1/2">
+              <p>I’m passionate about data and technology, with experience in data analysis, machine learning, and cloud solutions.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-4 text-center">Skills</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 shadow rounded">
+              <h3 class="font-bold mb-2">Programming</h3>
+              <ul>
+                <li>Python</li>
+                <li>SQL</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+            <div class="bg-white p-4 shadow rounded">
+              <h3 class="font-bold mb-2">Data Analysis</h3>
+              <ul>
+                <li>Pandas</li>
+                <li>NumPy</li>
+                <li>SciPy</li>
+              </ul>
+            </div>
+            <div class="bg-white p-4 shadow rounded">
+              <h3 class="font-bold mb-2">Visualization</h3>
+              <ul>
+                <li>Tableau</li>
+                <li>Power BI</li>
+                <li>Matplotlib</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="projects" class="py-20">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-4 text-center">Projects</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <div class="bg-white p-4 shadow rounded">
+              <h3 class="font-bold mb-2">Sales Forecast Model</h3>
+              <p>Built a predictive model for sales trends.</p>
+              <p class="mt-2"><strong>Tools:</strong> Python, Pandas, scikit-learn</p>
+            </div>
+            <div class="bg-white p-4 shadow rounded">
+              <h3 class="font-bold mb-2">Customer Segmentation Dashboard</h3>
+              <p>Created a Tableau dashboard for customer segments.</p>
+              <p class="mt-2"><strong>Tools:</strong> Tableau, SQL</p>
+            </div>
+            <div class="bg-white p-4 shadow rounded">
+              <h3 class="font-bold mb-2">Sentiment Analysis</h3>
+              <p>Analyzed Twitter data with NLP techniques.</p>
+              <p class="mt-2"><strong>Tools:</strong> Python, NLTK</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+          <h2 class="text-3xl font-bold mb-4 text-center">Contact</h2>
+          <div class="flex flex-wrap">
+            <div class="w-full md:w-1/2 mb-4 md:mb-0">
+              <h3 class="font-bold mb-2">Get in Touch</h3>
+              <form action="https://formspree.io/your-email" method="POST">
+                <label for="name" class="block">Name</label>
+                <input type="text" id="name" name="name" class="w-full p-2 mb-2 border rounded">
+                <label for="email" class="block">Email</label>
+                <input type="email" id="email" name="email" class="w-full p-2 mb-2 border rounded">
+                <label for="message" class="block">Message</label>
+                <textarea id="message" name="message" class="w-full p-2 mb-2 border rounded"></textarea>
+                <button type="submit" class="bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600">Send</button>
+              </form>
+            </div>
+            <div class="w-full md:w-1/2">
+              <h3 class="font-bold mb-2">Connect</h3>
+              <ul>
+                <li><a href="https://www.linkedin.com/in/chittaranjan-t-03tc27/" class="text-blue-500 hover:underline">LinkedIn</a></li>
+                <li><a href="https://github.com/CRCHINTU03" class="text-blue-500 hover:underline">GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+          anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+              behavior: 'smooth'
+            });
+          });
+        });
+      </script>
+</body>
+</html>
